@@ -1,0 +1,5 @@
+package com.training.ces.vasanth;
+
+public interface Sorting {
+
+}

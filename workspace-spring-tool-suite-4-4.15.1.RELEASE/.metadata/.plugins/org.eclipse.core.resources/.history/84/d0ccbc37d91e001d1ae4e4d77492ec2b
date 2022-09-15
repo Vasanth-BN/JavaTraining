@@ -1,0 +1,13 @@
+package vasanth;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class PasswordTest {
+	public static void main(String...arg) {
+		Integer [] arr= {12,2,36,10,217,36,5,36,15,10};
+		ArrayList <Integer> li=new ArrayList<>();
+		Collections.addAll(li, arr);
+		
+	}
+}

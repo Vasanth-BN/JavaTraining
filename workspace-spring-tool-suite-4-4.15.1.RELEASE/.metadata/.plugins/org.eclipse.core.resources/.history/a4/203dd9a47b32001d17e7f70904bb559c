@@ -1,0 +1,14 @@
+package com.training.searching;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class BinarySearchTest {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+}

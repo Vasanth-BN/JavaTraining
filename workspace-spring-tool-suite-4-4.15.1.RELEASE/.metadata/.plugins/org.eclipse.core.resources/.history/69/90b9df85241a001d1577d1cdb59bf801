@@ -1,0 +1,31 @@
+package JavaInternLearning;
+
+public class Overload_Override {
+	public static void show() {
+		System.out.println("I'm in show");
+	}
+	public static void show(String s) {
+		System.out.println("I'm also show "+s);
+	}
+	public static void main(String[] args) {
+		show();
+		show("Bro!");
+		Overriding1 obj=new Overriding1();
+		obj.show();
+	}
+
+}
+class Overriding{
+	public void show() {
+		System.out.println("Override 1");
+	}
+}
+class Overriding1 extends Overriding{
+	public  void show() {
+		
+		System.out.println("Override 2");
+	}
+	public Overriding1() {
+		
+	}
+}

@@ -1,0 +1,31 @@
+package vasanth;
+
+import java.util.*;
+
+public class Sadhana_1 {
+	public static void main(String...args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		List<Integer>list=new ArrayList<>();
+		List<Integer>li=new ArrayList<>();		
+		for(int i=0;i<n;i++) {
+			list.add(sc.nextInt());
+		}
+		for(int i=0;i<n;i++) {
+			int a=list.get(i);
+			if(Collections.frequency(list, a)>1 && !(li.contains(a))){
+				li.add(a);
+			}
+		}
+		if(li.size()>0) {
+			for(int i:li) {
+				System.out.print(i+" ");
+			}
+		}
+		else {
+			System.out.println("The list is empty");
+		}
+		sc.close();
+	}
+}
+

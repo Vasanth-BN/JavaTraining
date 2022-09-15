@@ -1,0 +1,19 @@
+package com.ces.vasanth;
+
+public class Cricket implements Sports{
+	public void play() {
+		System.out.println("I'm Suresh Raina");
+	}
+	public void bowl() {
+		System.out.println("I'm Bhuvi the Swinger");
+	}
+	public void allRounder() {
+		System.out.println("I'm Jaddu the show steeler");
+	}
+	public void bat() {
+		System.out.println("I'm King Kohli");
+	}
+	public void captain() {
+		System.out.println("I'm Dhoni the finisher");
+	}
+}

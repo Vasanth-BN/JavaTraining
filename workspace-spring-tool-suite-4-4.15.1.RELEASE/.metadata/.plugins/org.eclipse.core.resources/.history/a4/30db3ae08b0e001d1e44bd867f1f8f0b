@@ -1,0 +1,16 @@
+package vasanth;
+import java.util.*;
+public class Animals {
+	void eat() {
+		System.out.println("Eat!");
+	}
+}
+public class Vasa{
+	public static void main(String...args) {
+		Animals a;
+		a=new Cat();
+		a.eat();
+		a.new Dog();
+		a.eat();
+	}
+}

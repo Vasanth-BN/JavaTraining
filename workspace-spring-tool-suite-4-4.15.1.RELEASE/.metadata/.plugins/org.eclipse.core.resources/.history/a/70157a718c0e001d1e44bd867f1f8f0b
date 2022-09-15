@@ -1,0 +1,12 @@
+package vasanth;
+public class Vasa{
+	public static void main(String...args) {
+		Animals a;
+		a=new Cat();
+		a.eat();
+		a=new Dog();
+		a.eat();
+		a=new Lion();
+		a.eat();
+	}
+}

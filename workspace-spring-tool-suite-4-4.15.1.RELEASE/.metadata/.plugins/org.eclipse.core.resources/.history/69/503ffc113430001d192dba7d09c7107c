@@ -1,0 +1,58 @@
+package com.Vasanth;
+
+import java.util.Scanner;
+
+class User {
+	private String userName;
+	private String pass;
+	private static int n = 0;
+
+	public String getUserName(String inp) {
+		if (userName.equals(inp)) {
+			n++;
+			return userName;
+		} else
+			return "Invalid User Name!";
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public String getPass(String password) {
+		if (n != 0 && pass.equals(password)) {
+			return pass;
+		} else
+			return "Invalid Password";
+	}
+
+	public void setPass(String pass) {
+		this.pass = pass;
+	}
+}
+
+public class Encapsulation {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		User ab = new User();
+		ab.setUserName("Vasanth");
+		ab.setPass("19");
+//		System.out.println();
+//		System.out.println();
+		System.out.println("Enter User Name : ");
+		String inp1 = sc.nextLine();
+		if (ab.getUserName(inp1).equals(inp1)) {
+			System.out.println("Enter your Password : ");
+			String inp2 = sc.nextLine();
+			if (inp2.equals(ab.getPass(inp2))) {
+				System.out.println("\t\tHelloo " + inp1);
+			} else
+				System.out.println(ab.getPass(inp2));
+		} else
+			System.out.println(ab.getUserName(inp1));
+		sc.close();
+
+	}
+
+}

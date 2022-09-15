@@ -1,0 +1,17 @@
+package com.training;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+class ReverseByStackTest {
+
+	@Test
+	void reverseStringtest() {
+		var s="Vasanth";
+		var exp="htnasaV";
+		assertEquals(exp,ReverseByStack.reverseByStack(s));
+		
+	}
+
+}

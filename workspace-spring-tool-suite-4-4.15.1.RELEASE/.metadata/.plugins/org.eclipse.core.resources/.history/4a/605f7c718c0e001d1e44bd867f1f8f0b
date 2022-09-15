@@ -1,0 +1,8 @@
+package vasanth;
+import java.util.*;
+public class Animals {
+	void eat() {
+		System.out.println("Eat!");
+	}
+}
+

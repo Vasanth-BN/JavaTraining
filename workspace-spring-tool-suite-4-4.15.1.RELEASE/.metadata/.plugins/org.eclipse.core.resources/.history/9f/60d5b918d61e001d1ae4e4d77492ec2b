@@ -1,0 +1,8 @@
+package vasanth;
+
+public class Lion extends Animals {
+	void eat() {
+		super.eat();
+		System.out.println("Eats Meat");
+	}
+}

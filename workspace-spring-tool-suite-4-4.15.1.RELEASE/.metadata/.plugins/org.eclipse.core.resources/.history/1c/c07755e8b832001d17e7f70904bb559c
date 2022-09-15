@@ -1,0 +1,7 @@
+package com.ces.vasanth;
+
+public class Cricket implements Sports{
+	public void play() {
+		System.out.println("I'm Suresh Raina");
+	}
+}

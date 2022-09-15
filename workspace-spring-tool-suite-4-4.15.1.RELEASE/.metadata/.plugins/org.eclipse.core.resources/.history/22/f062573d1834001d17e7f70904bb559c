@@ -1,0 +1,24 @@
+package com.ces.vasanth;
+
+public class Ball {
+	private String brand;
+	
+	public Ball(String ball) {
+		this.brand=ball;
+	}
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+
+	@Override
+	public String toString() {
+		return "Ball [brand=" + brand + "]";
+	}
+	
+	
+}

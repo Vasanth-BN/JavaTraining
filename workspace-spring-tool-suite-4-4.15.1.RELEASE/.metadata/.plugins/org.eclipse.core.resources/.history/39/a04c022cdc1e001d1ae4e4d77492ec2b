@@ -1,0 +1,28 @@
+package vasanth;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Set;
+import java.util.HashSet;
+
+public class PasswordTest {
+	public static void main(String...arg) {
+		Integer [] arr= {12,2,36,10,217,36,5,36,15,10};
+		Set<Integer> set=new HashSet<>();
+		List<Integer> list=new ArrayList<>();
+		List<Integer> li=new ArrayList<>();
+		Collections.addAll(set, arr);
+		Collections.addAll(li, arr);
+		for(int a : set) {
+			list.add(a);
+		}
+		System.out.println(list.toString());
+		String ans="";
+		int c=0;
+		for(int i=0;i<list.size();i++) {
+			int a=list.get(i);
+			
+		}
+	}
+}
